@@ -1,3 +1,5 @@
+package Testing;
+
 import com.espertech.esper.client.*;
 import java.util.Random;
 import java.util.Date;
@@ -81,7 +83,7 @@ public class Controller{
         EPStatement cepStatement = cepAdm.createEPL(
                 "select * from " + "StockTick(symbol='AAPL').win:length(2) " +
                         "having avg(price) > 3");
-        //Listener aktivieren
+        //Listeners.Listener aktivieren
         cepStatement.addListener(new CEPListener());
         //Sehr kleinen Stream generieren
         for (int i = 0; i < 10; i++) {
