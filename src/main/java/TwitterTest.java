@@ -18,9 +18,9 @@ public class TwitterTest {
         AccessToken accessToken = null;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         while (null == accessToken) {
-            System.out.println("Open the following URL and grant access to your account:");
+            System.out.println("Öffnen Sie die folgende Website, um Zugang zum Account zu gewähren:");
             System.out.println(requestToken.getAuthorizationURL());
-            System.out.print("Enter the PIN(if aviailable) or just hit enter.[PIN]:");
+            System.out.println("Gegen Sie hier die PIN von der Website ein:");
             String pin = br.readLine();
             try{
                 if(pin.length() > 0){
@@ -30,25 +30,26 @@ public class TwitterTest {
                 }
             } catch (TwitterException te) {
                 if(401 == te.getStatusCode()){
-                    System.out.println("Unable to get the access token.");
+                    System.out.println("Kein Zugang zum Accesstoken");
                 }else{
                     te.printStackTrace();
                 }
             }
         }
         //persist to the accessToken for future reference.
-        storeAccessToken((int) twitter.verifyCredentials().getId(), accessToken);
+        //storeAccessToken((int) twitter.verifyCredentials().getId(), accessToken);
         List<Status> statuses = twitter.getHomeTimeline();
-        System.out.println("Showing home timeline.");
+        System.out.println("\n\nZeige Timeline:");
         for (Status status : statuses) {
-            System.out.println(status.getUser().getName() + ":" +
+            System.out.println("\n" + status.getUser().getName() + ":" +
                     status.getText());
         }
         System.exit(0);
     }
+    /*
     private static void storeAccessToken(int useId, AccessToken accessToken){
-        //store accessToken.getToken()
-        //store accessToken.getTokenSecret()
-    }
+        store accessToken.getToken()
+        store accessToken.getTokenSecret()
+    }*/
 
 }
