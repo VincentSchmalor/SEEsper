@@ -1,43 +1,51 @@
 package Handlers;
 
-import Tables.*;
 import Listeners.Listener;
 import com.espertech.esper.client.*;
 
 /**
+ * Erstellt die Laufzeitumgebung und konfigueriert diese
  * Created by Vincent Schmalor on 22/06/2017.
  */
 public class EngineHandler {
 
-    private Configuration cepConfig;
-    private EPServiceProvider cep;
-    private EPRuntime cepRT;
-    private EPAdministrator cepAdm;
-    private EPStatement cepStatement = null;
+    //Deklaration
+    private Configuration configuration;
+    private EPServiceProvider serviceProvider;
+    private EPRuntime runtime;
+    private EPAdministrator administrator;
+    private EPStatement statement = null;
 
-    public EngineHandler() {
-
-    }
-
+    /**
+     * Konfiguriert die Engine und fügt für jedes Event, das eintreten kann, ein Eventtype hinzu
+     */
     public void init(String... classNames){
-        cepConfig = new Configuration();
+        configuration = new Configuration();
         for(String classname : classNames) {
-            cepConfig.addEventType(classname, "Tables." + classname);
+            configuration.addEventType(classname, "Tables." + classname);
         }
-        cep = EPServiceProviderManager.getProvider("myCEPEngine", cepConfig);
-        cepRT = cep.getEPRuntime();
-        cepAdm = cep.getEPAdministrator();
+        serviceProvider = EPServiceProviderManager.getProvider("myEngine", configuration);
+        runtime = serviceProvider.getEPRuntime();
+        administrator = serviceProvider.getEPAdministrator();
     }
 
+    /**
+     * Setzt das Statement, mit dem die eintreffenden Events analysiert werden
+     * @param update Statement
+     */
     public void updateStatement(String update){
-        cepStatement = cepAdm.createEPL(update);
+        statement = administrator.createEPL(update);
     }
 
+    /**
+     * Fügt einen Listener hinzu, der die durch das Statement erzeugten Daten auffängt
+     */
     public void addListener(){
-        cepStatement.addListener(new Listener());
+        statement.addListener(new Listener());
     }
 
-    public EPRuntime getCepRT() {
-        return cepRT;
+    //Getter, Setter
+    public EPRuntime getRuntime() {
+        return runtime;
     }
 }

@@ -1,7 +1,6 @@
 import Handlers.EngineHandler;
 import Handlers.StreamHandler;
 import Handlers.TwitterHandler;
-import Tables.tblTimeLine;
 
 
 /**
@@ -9,10 +8,11 @@ import Tables.tblTimeLine;
  */
 public class Main {
     /**
+     * Ruft Handler auf, die im Hintergrund die Daten schubsen.
      * Hauptprogramm
      * @param args kann unbeachtet belassen werden
      */
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args){
         TwitterHandler th = new TwitterHandler();
         EngineHandler eh = new EngineHandler();
         StreamHandler sh = new StreamHandler();
@@ -21,6 +21,6 @@ public class Main {
         eh.updateStatement("select * " +
                 "from tblTimeLine()");
         eh.addListener();
-        sh.getTimeline(eh.getCepRT(),th.getTwitter());
+        sh.getTimeline(eh.getRuntime(),th.getTwitter());
     }
 }

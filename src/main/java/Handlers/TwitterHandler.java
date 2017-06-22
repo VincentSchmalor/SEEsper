@@ -13,20 +13,21 @@ import java.io.InputStreamReader;
  * Created by Vincent Schmalor on 22/06/2017.
  */
 public class TwitterHandler {
-
+    //Deklasration
     public Twitter twitter = TwitterFactory.getSingleton();
 
+    //Methoden
 
-    public TwitterHandler(){
-    }
-
+    /**
+     * Initialisiert die Verbindung mit Twitter und ist an Benutzerinteraktion beteiligt
+     */
     public void init(){
         try {
             twitter.setOAuthConsumer("41C4SELJGcqp7szwWHN4F93VO", "vJh92ndV3Z0N0qOZQDnWlr077T2Drh8eGJoM1MbhS1qHex4k2x");
             RequestToken requestToken = twitter.getOAuthRequestToken();
             AccessToken accessToken = null;
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-            while (null == accessToken) {
+            while (accessToken == null) {
                 System.out.println("Öffnen Sie die folgende Website, um Zugang zum Account zu gewähren:");
                 System.out.println(requestToken.getAuthorizationURL());
                 System.out.println("Gegen Sie hier die PIN von der Website ein:");
@@ -50,6 +51,7 @@ public class TwitterHandler {
         }
     }
 
+    //Getter, Setter
     public Twitter  getTwitter(){
         return twitter;
     }

@@ -3,6 +3,7 @@ package Tables;
 import java.util.Date;
 
 /**
+ * Grundgerüst der "Tabelle" TimeLine, in der Informationen über die Timeline gesoeichert werden
  * Created by Vincent Schmalor on 22/06/2017.
  */
 public class tblTimeLine {
@@ -26,6 +27,7 @@ public class tblTimeLine {
                 "\nFollowers:" + followerCount + "\n\n";
     }
 
+    //Getter, Setter
     public Date getCreatedAt() {
         return createdAt;
     }
