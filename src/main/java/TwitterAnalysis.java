@@ -6,8 +6,7 @@ import twitter4j.TwitterFactory;
 import twitter4j.auth.AccessToken;
 import twitter4j.auth.RequestToken;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.List;
 
 /**
@@ -30,10 +29,10 @@ public class TwitterAnalysis {
         List<twitter4j.Status> statuses = twitter.getHomeTimeline();
         for (twitter4j.Status status : statuses) {
             Status status1 = new Status(
-                    "\n\n" + status.getCreatedAt() +
+                    status.getCreatedAt() +
                     "\nUser: " + status.getUser().getName() +
                     "\n" + status.getText() +
-                    "\nFollowers:" + status.getUser().getFollowersCount());
+                    "\nFollowers:" + status.getUser().getFollowersCount() + "\n\n");
             cepRT.sendEvent(status1);
         }
     }
@@ -86,7 +85,7 @@ public class TwitterAnalysis {
     /**
      * Wartet auf Erzeugen eines Events durch das Statement. Implementiert, was folgen soll, falls ein Event eintritt
      */
-    public static class CEPListener implements UpdateListener {
+    public static class CEPListener implements UpdateListener{
         //Wird automatisch von der Engine angesprochen
         public void update(EventBean[] newData, EventBean[] oldData) {
             System.out.println("Event received: " + newData[0].getUnderlying());
