@@ -17,7 +17,7 @@ public class Main {
      */
 
     static final String STATEMENT =
-            "select *, count(*) as Anzahl " +
+            "select * " +
             "from tblTimeLine()"
             ;//+"where status LIKE '%#Ehefüralle%'";
 
@@ -44,6 +44,6 @@ public class Main {
         }
         engine.updateStatement(STATEMENT);
         engine.addListener();
-        stream.getTimeline(engine.getRuntime(),twitter.getTwitter());
+        stream.getOldTimeLine(engine.getRuntime(),twitter.getTwitter());
     }
 }
