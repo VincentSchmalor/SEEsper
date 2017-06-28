@@ -21,9 +21,9 @@ public class TwitterHandler {
     /**
      * Initialisiert die Verbindung mit Twitter und ist an Benutzerinteraktion beteiligt
      */
-    public void init(){
+    public void init(String CONSUMER_KEY, String CONSUMER_SECRET){
         try {
-            twitter.setOAuthConsumer("41C4SELJGcqp7szwWHN4F93VO", "vJh92ndV3Z0N0qOZQDnWlr077T2Drh8eGJoM1MbhS1qHex4k2x");
+            twitter.setOAuthConsumer(CONSUMER_KEY, CONSUMER_SECRET);
             RequestToken requestToken = twitter.getOAuthRequestToken();
             AccessToken accessToken = null;
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
