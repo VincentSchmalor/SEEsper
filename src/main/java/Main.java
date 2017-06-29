@@ -44,6 +44,7 @@ public class Main {
         }
         engine.updateStatement(STATEMENT);
         engine.addListener();
-        stream.getOldTimeLine(engine.getRuntime(),twitter.getTwitter());
+        //stream.getRealTimeLine(engine.getRuntime(),twitter.getTwitter());
+        stream.getOldTimeLine(engine.getRuntime());
     }
 }
