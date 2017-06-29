@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
  */
 public class TwitterHandler {
     //Deklasration
-    public Twitter twitter = TwitterFactory.getSingleton();
+    private Twitter twitter = TwitterFactory.getSingleton();
 
     //Methoden
 
@@ -49,6 +49,18 @@ public class TwitterHandler {
         }catch (Exception e){
             System.err.println("Twitterinitialisierung fehlgeschlagen. Bitte starten Sie das Programm erneut.");
         }
+    }
+
+    public boolean onlineAbfrage(){
+        System.out.println("Möchten Sie eine Liveabfrage starten? (y/n)");
+        String eingabe = "";
+        try {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            eingabe = br.readLine();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return eingabe.equals("y");
     }
 
     //Getter, Setter

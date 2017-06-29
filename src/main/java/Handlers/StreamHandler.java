@@ -2,15 +2,10 @@ package Handlers;
 
 import Tables.tblTimeLine;
 import com.espertech.esper.client.EPRuntime;
-import com.google.gson.Gson;
 import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 
-import java.io.*;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -18,9 +13,7 @@ import java.util.List;
  * Created by Vincent Schmalor on 22/06/2017.
  */
 public class StreamHandler {
-    OfflineHandler offline = new OfflineHandler();
-
-
+    private OfflineHandler offline = new OfflineHandler();
     /**
      * Lädt die Timeline von Twitter in die Engine
      * @param runtime
@@ -31,14 +24,14 @@ public class StreamHandler {
         try {
             List<Status> timeline;
             timeline = twitter.getHomeTimeline();
-            offline.startFile();
+            offline.createFile();
             for (twitter4j.Status status : timeline) {
                 tblTimeLine timeLine = new tblTimeLine(
                         status.getCreatedAt(),
                         status.getUser().getName(),
                         status.getText(),
                         status.getUser().getFollowersCount());
-                offline.speichern(timeLine);
+                offline.schreiben(timeLine);
                 runtime.sendEvent(timeLine);
             }
             //offline.appendEnd();
@@ -51,7 +44,8 @@ public class StreamHandler {
     }
 
     public void getOldTimeLine(EPRuntime runtime){
-        for(tblTimeLine status : offline.lesen("abc"))
+        for(tblTimeLine status :
+                offline.lesen())
         runtime.sendEvent(status);
     }
 }
