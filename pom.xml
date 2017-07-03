@@ -25,5 +25,14 @@
             <version>2.8.1</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>4.1.1</version>
+        </dependency>
+
+
+
     </dependencies>
 </project>
