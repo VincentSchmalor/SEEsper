@@ -8,7 +8,6 @@ import com.espertech.esper.client.*;
 public class Engine {
     private EPRuntime runtime;
     private EPAdministrator administrator;
-    private EPStatement statement = null;
 
     /**
      * runnable instance of Engine
@@ -22,22 +21,20 @@ public class Engine {
     }
 
     /**
-     * Adjust the selecting STATEMENT
+     * Adjust the selecting STATEMENT1
      */
-    public void updateStatement(String statement){
-        try {
-            this.statement = administrator.createEPL(statement);
-        }catch (Exception e){
-            System.out.println("Invalid Statement: Switching to Standardstatement");
-            this.statement = administrator.createEPL(Main.DEFAULT_STATEMENT);
+    public void updateStatement1(String... statements){
+        for(String statement:statements) {
+            EPStatement epStatement = null;
+            try {
+                epStatement = administrator.createEPL(statement);
+                epStatement.addListener(new Listener());
+            } catch (Exception e) {
+                System.out.println("Invalid Statement: Switching to Standardstatement");
+                epStatement = administrator.createEPL(Main.DEFAULT_STATEMENT);
+                epStatement.addListener(new Listener());
+            }
         }
-    }
-
-    /**
-     * Add Listener to Statement
-     */
-    public void addListener(){
-        statement.addListener(new Listener());
     }
 
     //Getter, Setter
