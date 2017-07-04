@@ -44,4 +44,64 @@ public class tblTweet {
     public String toString(){
         return topic+tweetlang+created_at+text+source+username+location+user_description+followers+friends+favorites+statuses_count+userlang+retweet_count+favorit_count;
     }
+
+    public String getTopic() {
+        return topic;
+    }
+
+    public String getTweetlang() {
+        return tweetlang;
+    }
+
+    public String getCreated_at() {
+        return created_at;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public String getSource() {
+        return source;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public String getUser_description() {
+        return user_description;
+    }
+
+    public String getFollowers() {
+        return followers;
+    }
+
+    public String getFriends() {
+        return friends;
+    }
+
+    public String getFavorites() {
+        return favorites;
+    }
+
+    public String getStatuses_count() {
+        return statuses_count;
+    }
+
+    public String getUserlang() {
+        return userlang;
+    }
+
+    public String getRetweet_count() {
+        return retweet_count;
+    }
+
+    public String getFavorit_count() {
+        return favorit_count;
+    }
 }

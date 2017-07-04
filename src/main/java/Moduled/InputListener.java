@@ -12,29 +12,25 @@ import com.rabbitmq.client.Consumer;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
 
-public class InputListener {
+public class InputListener{
 
-    public void listen(EPRuntime runtime) {
-
-        try {
-
+    /**
+     * Standard Contructor
+     * @param runtime runtime of the engine
+     */
+    public InputListener(EPRuntime runtime){
+        try{
             ConnectionFactory factory = new ConnectionFactory();
             factory.setHost("localhost");
             final Connection con = factory.newConnection();
             final Translator translator = new Translator(runtime);
             Channel channel = con.createChannel();
-
-            // channel.exchangeDeclare("twitterout2", "direct");
-
             String queueName = channel.queueDeclare().getQueue();
             channel.queueBind(queueName, "twitterout", "");
-
             Consumer consumer = new DefaultConsumer(channel) {
                 @Override
                 public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
-                    String message = new String(body, "UTF-8");
-                    System.out.println("Tweet eingetroffen:" + message);
-                    translator.translate(message);
+                    translator.translate(new String(body, "UTF-8"));
                 }
             };
 

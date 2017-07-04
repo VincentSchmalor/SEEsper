@@ -8,13 +8,20 @@ import com.google.gson.Gson;
  */
 public class Translator {
 
-    EPRuntime runtime;
+    private EPRuntime runtime;
 
-
-    public Translator(EPRuntime runtime){
+    /**
+     * Prepare Translator
+     * @param runtime
+     */
+    public Translator(EPRuntime runtime) {
         this.runtime = runtime;
     }
 
+    /**
+     * Translate json to usable Object and send it to the engine.
+     * @param input json to convert
+     */
     public void translate(String input){
         Gson gson = new Gson();
         tblTweet tweet = gson.fromJson(input,tblTweet.class);

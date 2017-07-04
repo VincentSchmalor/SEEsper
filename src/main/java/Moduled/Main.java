@@ -5,13 +5,16 @@ package Moduled;
  */
 public class Main {
 
+    static final String DEFAULT_STATEMENT = "SELECT * from tblTweet()";
+    static final String STATEMENT = "SELECT username, created_at, text from tbTweet()";
+    /**
+     * Mainactivity
+     * @param args non required
+     */
     public static void main(String[] args){
-        System.out.println("mache Sachen");
         Engine engine = new Engine();
-        engine.init("tblTweet");
-        engine.updateStatement("SELECT * from tblTweet()");
+        engine.updateStatement(STATEMENT);
         engine.addListener();
-        InputListener input = new InputListener();
-        input.listen(engine.getRuntime());
+        new InputListener(engine.getRuntime());
     }
 }

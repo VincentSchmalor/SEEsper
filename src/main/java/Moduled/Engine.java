@@ -11,25 +11,30 @@ public class Engine {
     private EPStatement statement = null;
 
     /**
-     * Konfiguriert die Engine und fügt für jedes Event, das eintreten kann, ein Eventtype hinzu
+     * runnable instance of Engine
      */
-    public void init(String className){
+    public Engine(){
         Configuration configuration = new Configuration();
-        configuration.addEventType(className, className.getClass());
+        configuration.addEventType("tblTweet", tblTweet.class);
         EPServiceProvider serviceProvider = EPServiceProviderManager.getProvider("myEngine", configuration);
         runtime = serviceProvider.getEPRuntime();
         administrator = serviceProvider.getEPAdministrator();
     }
 
     /**
-     * Setzt das Statement, mit dem die eintreffenden Events analysiert werden
+     * Adjust the selecting STATEMENT
      */
-    public void updateStatement(String eingabe){
-        statement = administrator.createEPL(eingabe);
+    public void updateStatement(String statement){
+        try {
+            this.statement = administrator.createEPL(statement);
+        }catch (Exception e){
+            System.out.println("Invalid Statement: Switching to Standardstatement");
+            this.statement = administrator.createEPL(Main.DEFAULT_STATEMENT);
+        }
     }
 
     /**
-     * Fügt einen Listener hinzu, der die durch das Statement erzeugten Daten auffängt
+     * Add Listener to Statement
      */
     public void addListener(){
         statement.addListener(new Listener());
