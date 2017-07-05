@@ -23,13 +23,14 @@ public class Engine {
     /**
      * Adjust the selecting STATEMENT1
      */
-    public void updateStatement1(String... statements){
+    public void updateStatement(String... statements){
         for(String statement:statements) {
             EPStatement epStatement = null;
             try {
                 epStatement = administrator.createEPL(statement);
                 epStatement.addListener(new Listener());
             } catch (Exception e) {
+                e.printStackTrace();
                 System.out.println("Invalid Statement: Switching to Standardstatement");
                 epStatement = administrator.createEPL(Main.DEFAULT_STATEMENT);
                 epStatement.addListener(new Listener());

@@ -1,7 +1,5 @@
 package Moduled;
 
-import java.util.Date;
-
 /**
  * Created by Vincent Schmalor on 04/07/2017.
  */
@@ -14,15 +12,15 @@ public class tblTweet {
     String username;
     String location;
     String user_description;
-    String followers;
-    String friends;
-    String favorites;
-    String statuses_count;
+    int followers;
+    int friends;
+    int favorites;
+    int statuses_count;
     String userlang;
-    String retweet_count;
-    String favorit_count;
+    int retweet_count;
+    int favorit_count;
 
-    public tblTweet(String topic, String tweetlang, String created_at, String text, String source, String username, String location, String user_description, String followers, String friends, String favorites, String statuses_count, String userlang, String retweet_count, String favorit_count) {
+    public tblTweet(String topic, String tweetlang, String created_at, String text, String source, String username, String location, String user_description, int followers, int friends, int favorites, int statuses_count, String userlang, int retweet_count, int favorit_count) {
         this.topic = topic;
         this.tweetlang = tweetlang;
         this.created_at = created_at;
@@ -77,19 +75,19 @@ public class tblTweet {
         return user_description;
     }
 
-    public String getFollowers() {
+    public int getFollowers() {
         return followers;
     }
 
-    public String getFriends() {
+    public int getFriends() {
         return friends;
     }
 
-    public String getFavorites() {
+    public int getFavorites() {
         return favorites;
     }
 
-    public String getStatuses_count() {
+    public int getStatuses_count() {
         return statuses_count;
     }
 
@@ -97,11 +95,11 @@ public class tblTweet {
         return userlang;
     }
 
-    public String getRetweet_count() {
+    public int getRetweet_count() {
         return retweet_count;
     }
 
-    public String getFavorit_count() {
+    public int getFavorit_count() {
         return favorit_count;
     }
 }
