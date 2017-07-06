@@ -16,5 +16,6 @@ public class Listener implements UpdateListener {
      */
     public void update(EventBean[] newData, EventBean[] oldData) {
         System.out.println("Event received: " + newData[0].getUnderlying());
+        System.out.println("Event received: " + oldData[0].getUnderlying());
     }
 }

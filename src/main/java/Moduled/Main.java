@@ -13,6 +13,10 @@ public class Main {
     static final String STATEMENT6 = "SELECT 'MERKEL' as NAME, avg(followers) as AVGFollowersPerTweeter from tblTweet.win:time_batch(60 sec) WHERE text LIKE'%#Merkel%'";
     static final String STATEMENT7 = "SELECT 'PUTIN' as NAME, avg(followers) as AVGFollowersPerTweeter from tblTweet.win:time_batch(60 sec) WHERE text LIKE'%#Putin%'";
     static final String STATEMENT8 = "SELECT 'MACRON' as NAME, avg(followers) as AVGFollowersPerTweeter from tblTweet.win:time_batch(60 sec) WHERE text LIKE'%#Macron%'";
+    static final String STATEMENT9 = "SELECT 'TRUMP' as NAME, username, followers FROM tblTweet.win:time_batch(60sec).ext:rank(followers, 1, followers desc) WHERE text LIKE '%#Trump%'";
+    static final String STATEMENT10 = "SELECT 'MERKEL' as NAME, username, followers FROM tblTweet.win:time_batch(60sec).ext:rank(followers, 1, followers desc) WHERE text LIKE '%#Merkel%'";
+    static final String STATEMENT11 = "SELECT 'PUTIN' as NAME, username, followers FROM tblTweet.win:time_batch(60sec).ext:rank(followers, 1, followers desc) WHERE text LIKE '%#Putin%'";
+    static final String STATEMENT12 = "SELECT 'MACRON' as NAME, username, followers FROM tblTweet.win:time_batch(60sec).ext:rank(followers, 1, followers desc) WHERE text LIKE '%#Macron%'";
 
     /**
      * Mainactivity
@@ -20,7 +24,7 @@ public class Main {
      */
     public static void main(String[] args){
         Engine engine = new Engine();
-        engine.updateStatement(STATEMENT1,STATEMENT2,STATEMENT3,STATEMENT4,STATEMENT5,STATEMENT6,STATEMENT7,STATEMENT8);
+        engine.updateStatement(STATEMENT1,STATEMENT2,STATEMENT3,STATEMENT4,STATEMENT5,STATEMENT6,STATEMENT7,STATEMENT8,STATEMENT9,STATEMENT10,STATEMENT11,STATEMENT12);
         new InputListener(engine.getRuntime());
     }
 }
