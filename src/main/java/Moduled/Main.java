@@ -18,13 +18,17 @@ public class Main {
     static final String STATEMENT11 = "SELECT 'PUTIN' as NAME, username, followers FROM tblTweet.win:time_batch(60sec).ext:rank(followers, 1, followers desc) WHERE text LIKE '%#Putin%'";
     static final String STATEMENT12 = "SELECT 'MACRON' as NAME, username, followers FROM tblTweet.win:time_batch(60sec).ext:rank(followers, 1, followers desc) WHERE text LIKE '%#Macron%'";
 
+    static final String STATEMENT100 = "SELECT username, followers, text, sentiment FROM tblTweet()";
+
     /**
      * Mainactivity
      * @param args non required
      */
     public static void main(String[] args){
         Engine engine = new Engine();
-        engine.updateStatement(STATEMENT1,STATEMENT2,STATEMENT3,STATEMENT4,STATEMENT5,STATEMENT6,STATEMENT7,STATEMENT8,STATEMENT9,STATEMENT10,STATEMENT11,STATEMENT12);
+        //engine.updateStatement(DEFAULT_STATEMENT);
+        //engine.updateStatement(STATEMENT1,STATEMENT2,STATEMENT3,STATEMENT4,STATEMENT5,STATEMENT6,STATEMENT7,STATEMENT8,STATEMENT9,STATEMENT10,STATEMENT11,STATEMENT12);
+        engine.updateStatement(STATEMENT100);
         new InputListener(engine.getRuntime());
     }
 }

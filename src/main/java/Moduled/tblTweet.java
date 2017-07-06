@@ -19,8 +19,9 @@ public class tblTweet {
     String userlang;
     int retweet_count;
     int favorit_count;
+    int sentiment;
 
-    public tblTweet(String topic, String tweetlang, String created_at, String text, String source, String username, String location, String user_description, int followers, int friends, int favorites, int statuses_count, String userlang, int retweet_count, int favorit_count) {
+    public tblTweet(String topic, String tweetlang, String created_at, String text, String source, String username, String location, String user_description, int followers, int friends, int favorites, int statuses_count, String userlang, int retweet_count, int favorit_count, int sentiment) {
         this.topic = topic;
         this.tweetlang = tweetlang;
         this.created_at = created_at;
@@ -36,11 +37,12 @@ public class tblTweet {
         this.userlang = userlang;
         this.retweet_count = retweet_count;
         this.favorit_count = favorit_count;
+        this.sentiment = sentiment;
     }
 
     @Override
     public String toString(){
-        return topic+tweetlang+created_at+text+source+username+location+user_description+followers+friends+favorites+statuses_count+userlang+retweet_count+favorit_count;
+        return topic+tweetlang+created_at+text+source+username+location+user_description+followers+friends+favorites+statuses_count+userlang+retweet_count+favorit_count+sentiment;
     }
 
     public String getTopic() {
@@ -101,5 +103,9 @@ public class tblTweet {
 
     public int getFavorit_count() {
         return favorit_count;
+    }
+
+    public int getSentiment() {
+        return sentiment;
     }
 }
