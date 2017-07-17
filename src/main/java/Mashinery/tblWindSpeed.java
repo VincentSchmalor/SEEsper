@@ -1,32 +1,36 @@
 package Mashinery;
 
-import java.util.Date;
-
 /**
  * Created by vince on 17.07.2017.
  */
 public class tblWindSpeed {
 
+    int iteration;
     long timeStamp;
-    private int plz;
+    private int region;
     private double windSpeed;
 
-    public tblWindSpeed(long timeStamp, int plz, double windSpeed) {
+    public tblWindSpeed(int iteration, long timeStamp, int plz, double windSpeed) {
+        this.iteration = iteration;
         this.timeStamp = timeStamp;
-        this.plz = plz;
+        this.region = plz;
         this.windSpeed = windSpeed;
     }
 
     public String toString(){
-        return "Time: " + timeStamp + "; PLZ: " + plz + "; Windspeed: " + windSpeed + ";";
+        return "Time: " + timeStamp + "; Region: " + region + "; Windspeed: " + windSpeed + ";";
+    }
+
+    public int getIteration() {
+        return iteration;
     }
 
     public long getTimeStamp() {
         return timeStamp;
     }
 
-    public int getPlz() {
-        return plz;
+    public int getRegion() {
+        return region;
     }
 
     public double getWindSpeed() {

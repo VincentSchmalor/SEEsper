@@ -2,6 +2,8 @@ package Mashinery;
 
 import com.espertech.esper.client.*;
 
+import java.util.Date;
+
 /**
  * Created by Vincent Schmalor on 04/07/2017.
  */
@@ -23,11 +25,12 @@ public class Engine {
     /**
      * Adjust the selecting STATEMENT1
      */
-    public void updateStatement(String... statements){
-        for(String statement:statements) {
+    public void updateStatement(){
+        for(int i=0;i<300;i++) {
             EPStatement epStatement = null;
             try {
-                epStatement = administrator.createEPL(statement);
+                //Alarmiere, wenn in einer Region die Durchschnittswerte der letzten 3 Messungen 35km/h übersteigen
+                epStatement = administrator.createEPL("SELECT iteration, region, AVG(windSpeed) AS Average_WindSpeed FROM tblWindSpeed.win:length(1200) WHERE region = " + i + " having AVG(windSpeed) >35");
                 epStatement.addListener(new Listener());
             } catch (Exception e) {
                 e.printStackTrace();

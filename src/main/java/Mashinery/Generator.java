@@ -27,10 +27,20 @@ public class Generator {
      */
     public void generate(){
         Random rand = new Random();
-        while(true){
-            if(rand.nextInt(10000000)==2){
-                tblWindSpeed windSpeed = new tblWindSpeed(System.currentTimeMillis(),rand.nextInt(99999)+100000,abs(rand.nextGaussian()*15+20));
-                runtime.sendEvent(windSpeed);
+        int iteration = 1;
+        for(int i = 1;i<=300;i++){
+            tblWindSpeed windSpeed = new tblWindSpeed(iteration,System.currentTimeMillis(),i,abs(rand.nextGaussian()*20));
+            runtime.sendEvent(windSpeed);
+            if(i==300){
+                i=1;
+                iteration++;
+
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
             }
         }
     }
