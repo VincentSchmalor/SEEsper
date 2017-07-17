@@ -1,4 +1,4 @@
-package Moduled;
+package Mashinery;
 
 import com.espertech.esper.client.*;
 
@@ -14,7 +14,7 @@ public class Engine {
      */
     public Engine(){
         Configuration configuration = new Configuration();
-        configuration.addEventType("tblTweet", tblTweet.class);
+        configuration.addEventType("tblWindSpeed", tblWindSpeed.class);
         EPServiceProvider serviceProvider = EPServiceProviderManager.getProvider("myEngine", configuration);
         runtime = serviceProvider.getEPRuntime();
         administrator = serviceProvider.getEPAdministrator();
@@ -32,7 +32,7 @@ public class Engine {
             } catch (Exception e) {
                 e.printStackTrace();
                 System.out.println("Invalid Statement: Switching to Standardstatement");
-                epStatement = administrator.createEPL(Main.DEFAULT_STATEMENT);
+                epStatement = administrator.createEPL(MainWindSpeed.DEFAULT_STATEMENT);
                 epStatement.addListener(new Listener());
             }
         }

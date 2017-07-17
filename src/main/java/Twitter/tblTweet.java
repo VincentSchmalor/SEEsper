@@ -1,4 +1,4 @@
-package Moduled;
+package Twitter;
 
 /**
  * Created by Vincent Schmalor on 04/07/2017.

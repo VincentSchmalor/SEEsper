@@ -1,4 +1,4 @@
-package Moduled;
+package Twitter;
 
 import com.espertech.esper.client.EPRuntime;
 import com.google.gson.Gson;
@@ -11,7 +11,7 @@ public class Translator {
     private EPRuntime runtime;
 
     /**
-     * Prepare Translator
+     * Prepare Generator
      * @param runtime
      */
     public Translator(EPRuntime runtime) {
