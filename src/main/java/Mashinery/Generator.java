@@ -31,16 +31,14 @@ public class Generator {
         for(int i = 1;i<=300;i++){
             tblWindSpeed windSpeed = new tblWindSpeed(iteration,System.currentTimeMillis(),i,abs(rand.nextGaussian()*20));
             runtime.sendEvent(windSpeed);
+            try {
+                Thread.sleep(3);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             if(i==300){
                 i=1;
                 iteration++;
-
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-
             }
         }
     }

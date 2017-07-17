@@ -24,16 +24,17 @@ public class Engine {
      * Adjust the selecting STATEMENT1
      */
     public void updateStatement(String... statements){
+        Listener listener = new Listener();
         for(String statement:statements) {
             EPStatement epStatement = null;
             try {
                 epStatement = administrator.createEPL(statement);
-                epStatement.addListener(new Listener());
+                epStatement.addListener(listener);
             } catch (Exception e) {
                 e.printStackTrace();
                 System.out.println("Invalid Statement: Switching to Standardstatement");
                 epStatement = administrator.createEPL(MainTwitter.DEFAULT_STATEMENT);
-                epStatement.addListener(new Listener());
+                epStatement.addListener(listener);
             }
         }
     }
