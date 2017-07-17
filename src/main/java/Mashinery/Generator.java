@@ -23,8 +23,7 @@ public class Generator {
     }
 
     /**
-     * Translate json to usable Object and send it to the engine.
-     * @param input json to convert
+     * Gernerate random input Stream
      */
     public void generate(){
         Random rand = new Random();

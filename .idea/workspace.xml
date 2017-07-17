@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="772d2c0e-b450-4701-a4fb-9907ac48046e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitter.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Moduled/Main.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Moduled/Engine.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/Engine.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Moduled/InputListener.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/InputListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Moduled/Listener.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/Listener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Moduled/Translator.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/Translator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Moduled/tblTweet.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/tblTweet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Moduled/Listener.class" afterPath="$PROJECT_DIR$/target/classes/Moduled/Listener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Moduled/Main.class" afterPath="$PROJECT_DIR$/target/classes/Moduled/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Mashinery/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Moduled/Engine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Moduled/InputListener$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Moduled/InputListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Moduled/Listener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Moduled/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Moduled/Translator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Moduled/tblTweet.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Mashinery/Generator.java" afterPath="$PROJECT_DIR$/src/main/java/Mashinery/Generator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Mashinery/MainWindSpeed.java" afterPath="$PROJECT_DIR$/src/main/java/Mashinery/MainWindSpeed.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitter.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitter.java" />
     </list>
     <ignored path="Test3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,6 +34,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="MainTwitter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="47" column="172" lean-forward="false" selection-start-line="47" selection-start-column="172" selection-end-line="47" selection-end-column="172" />
+              <folding>
+                <element signature="docComment;class#MainTwitter#0" expanded="false" />
+                <marker date="1500321682881" expanded="false" signature="306:861" ph="..." />
+                <marker date="1500321682881" expanded="false" signature="993:1568" ph="..." />
+                <marker date="1500321682881" expanded="false" signature="1641:2263" ph="..." />
+                <marker date="1500321682881" expanded="false" signature="2369:2993" ph="..." />
+                <marker date="1500321682881" expanded="false" signature="3026:3875" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tblWindSpeed.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/tblWindSpeed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainWindSpeed.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/MainWindSpeed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Listener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/Listener.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,54 +81,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainWindSpeed.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/MainWindSpeed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Generator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="32" column="138" lean-forward="false" selection-start-line="32" selection-start-column="138" selection-end-line="32" selection-end-column="138" />
+            <state relative-caret-position="430">
+              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding>
                 <element signature="docComment;class#Generator#0" expanded="false" />
-                <element signature="docComment;method#Generator#0;class#Generator#0" expanded="false" />
-                <element signature="docComment;method#generate#0;class#Generator#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tblWindSpeed.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/tblWindSpeed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-              <folding>
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="27">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -158,9 +165,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Moduled/Listener.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mashinery/Engine.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mashinery/tblWindSpeed.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Mashinery/Generator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mashinery/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Twitter/MainTwitter.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mashinery/MainWindSpeed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mashinery/Generator.java" />
       </list>
     </option>
   </component>
@@ -292,53 +300,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainWindSpeed">
-    <configuration default="false" name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Deprecated.Testing.Controller" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SE" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TwitterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Deprecated.Testing.TwitterTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SE" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Deprecated.Main.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SE" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MainTwitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Twitter">
+    <configuration default="false" name="Twitter" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Twitter.*" />
@@ -346,9 +309,9 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Twitter.MainTwitter" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -358,7 +321,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MainWindSpeed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="WindSpeed" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Mashinery.*" />
@@ -366,9 +329,9 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Mashinery.MainWindSpeed" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -450,10 +413,10 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -582,20 +545,14 @@
       <listeners />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Controller" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TwitterTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MainTwitter" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MainWindSpeed" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Twitter" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WindSpeed" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainWindSpeed" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainTwitter" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TwitterTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Controller" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Twitter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.WindSpeed" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -694,7 +651,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -866,21 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="59" column="102" lean-forward="false" selection-start-line="59" selection-start-column="102" selection-end-line="59" selection-end-column="102" />
-          <folding>
-            <element signature="docComment;class#MainTwitter#0" expanded="false" />
-            <marker date="1500320912370" expanded="false" signature="306:861" ph="..." />
-            <marker date="1500320912370" expanded="false" signature="993:1568" ph="..." />
-            <marker date="1500320912370" expanded="false" signature="1641:2263" ph="..." />
-            <marker date="1500320912370" expanded="false" signature="2369:2970" ph="..." />
-            <marker date="1500320912370" expanded="false" signature="3003:3852" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/tblTweet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -913,6 +857,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="47" column="172" lean-forward="false" selection-start-line="47" selection-start-column="172" selection-end-line="47" selection-end-column="172" />
+          <folding>
+            <element signature="docComment;class#MainTwitter#0" expanded="false" />
+            <marker date="1500321682881" expanded="false" signature="306:861" ph="..." />
+            <marker date="1500321682881" expanded="false" signature="993:1568" ph="..." />
+            <marker date="1500321682881" expanded="false" signature="1641:2263" ph="..." />
+            <marker date="1500321682881" expanded="false" signature="2369:2993" ph="..." />
+            <marker date="1500321682881" expanded="false" signature="3026:3875" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/tblWindSpeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/MainWindSpeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/Listener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -921,47 +896,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/tblWindSpeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="138" lean-forward="false" selection-start-line="32" selection-start-column="138" selection-end-line="32" selection-end-column="138" />
+        <state relative-caret-position="430">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="docComment;class#Generator#0" expanded="false" />
-            <element signature="docComment;method#Generator#0;class#Generator#0" expanded="false" />
-            <element signature="docComment;method#generate#0;class#Generator#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/MainWindSpeed.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="27">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>

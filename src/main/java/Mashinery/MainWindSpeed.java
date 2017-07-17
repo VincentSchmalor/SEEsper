@@ -7,7 +7,8 @@ public class MainWindSpeed {
 
     static final String DEFAULT_STATEMENT = "Select * FROM tblWindSpeed";
 
-    static final String STATEMENT1 = "Select MAX(timeStamp), AVG(windSpeed) FROM tblWindSpeed.win:length(10) having avg(windSpeed) > 30";
+    //Alarmiere, wenn die Durchschnittsgeschwindigkeit 33 übersteigt
+    static final String STATEMENT1 = "Select MAX(timeStamp) AS NeuesterEintrag, AVG(windSpeed) AS Durchschnittsgeschwindigkeit FROM tblWindSpeed.win:length(10) having avg(windSpeed) > 33";
 
     /**
      * Mainactivity
