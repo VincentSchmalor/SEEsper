@@ -12,13 +12,17 @@ public class MainTwitterTests {
     static final String STATEMENT4 = "SELECT 'MACRON' as NAME, username, text, followers, count(followers) as NumberTweeter FROM tblTweet() WHERE text LIKE '%#Macron%'";
     static final String STATEMENT5 = "SELECT 'TRUDEAU' as NAME, username, text, followers, count(followers) as NumberTweeter FROM tblTweet() WHERE text LIKE '%#Trudeau%'";
 
+    //Hashtagstest
+    static final String STATEMENT6 = "SELECT hashtag1 FROM tblTweet";
+
     /**
      * Mainactivity
      * @param args non required
      */
     public static void main(String[] args){
         Engine engine = new Engine();
-        engine.updateStatement(STATEMENT1,STATEMENT2,STATEMENT3,STATEMENT4,STATEMENT5); //3. Use-Case
+        //engine.updateStatement(STATEMENT1,STATEMENT2,STATEMENT3,STATEMENT4,STATEMENT5); //3. Use-Case
+        engine.updateStatement("SELECT hashtag1 FROM tblTweet");
         new InputListener(engine.getRuntime());
     }
 }

@@ -20,8 +20,17 @@ public class tblTweet {
     int retweet_count;
     int favorit_count;
     int sentiment;
+    String hashtag1;
+    String hashtag2;
+    String hashtag3;
+    String hashtag4;
+    String hashtag5;
 
-    public tblTweet(String topic, String tweetlang, String created_at, String text, String source, String username, String location, String user_description, int followers, int friends, int favorites, int statuses_count, String userlang, int retweet_count, int favorit_count, int sentiment) {
+
+    public tblTweet(String topic, String tweetlang, String created_at, String text, String source, String username,
+                    String location, String user_description, int followers, int friends, int favorites,
+                    int statuses_count, String userlang, int retweet_count, int favorit_count, int sentiment,
+                    String hashtag1, String hashtag2, String hashtag3, String hashtag4, String hashtag5) {
         this.topic = topic;
         this.tweetlang = tweetlang;
         this.created_at = created_at;
@@ -38,6 +47,11 @@ public class tblTweet {
         this.retweet_count = retweet_count;
         this.favorit_count = favorit_count;
         this.sentiment = sentiment;
+        this.hashtag1 = hashtag1;
+        this.hashtag2 = hashtag2;
+        this.hashtag3 = hashtag3;
+        this.hashtag4 = hashtag4;
+        this.hashtag5 = hashtag5;
     }
 
     @Override
@@ -107,5 +121,25 @@ public class tblTweet {
 
     public int getSentiment() {
         return sentiment;
+    }
+
+    public String getHashtag1() {
+        return hashtag1;
+    }
+
+    public String getHashtag2() {
+        return hashtag2;
+    }
+
+    public String getHashtag3() {
+        return hashtag3;
+    }
+
+    public String getHashtag4() {
+        return hashtag4;
+    }
+
+    public String getHashtag5() {
+        return hashtag5;
     }
 }
