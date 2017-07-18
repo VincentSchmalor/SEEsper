@@ -55,8 +55,30 @@ public class tblTweet {
     }
 
     @Override
-    public String toString(){
-        return topic+tweetlang+created_at+text+source+username+location+user_description+followers+friends+favorites+statuses_count+userlang+retweet_count+favorit_count+sentiment;
+    public String toString() {
+        return "tblTweet{" +
+                "topic='" + topic + '\'' +
+                ", tweetlang='" + tweetlang + '\'' +
+                ", created_at='" + created_at + '\'' +
+                ", text='" + text + '\'' +
+                ", source='" + source + '\'' +
+                ", username='" + username + '\'' +
+                ", location='" + location + '\'' +
+                ", user_description='" + user_description + '\'' +
+                ", followers=" + followers +
+                ", friends=" + friends +
+                ", favorites=" + favorites +
+                ", statuses_count=" + statuses_count +
+                ", userlang='" + userlang + '\'' +
+                ", retweet_count=" + retweet_count +
+                ", favorit_count=" + favorit_count +
+                ", sentiment=" + sentiment +
+                ", hashtag1='" + hashtag1 + '\'' +
+                ", hashtag2='" + hashtag2 + '\'' +
+                ", hashtag3='" + hashtag3 + '\'' +
+                ", hashtag4='" + hashtag4 + '\'' +
+                ", hashtag5='" + hashtag5 + '\'' +
+                '}';
     }
 
     public String getTopic() {

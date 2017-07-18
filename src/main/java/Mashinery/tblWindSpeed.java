@@ -17,8 +17,14 @@ public class tblWindSpeed {
         this.windSpeed = windSpeed;
     }
 
-    public String toString(){
-        return "Time: " + timeStamp + "; Region: " + region + "; Windspeed: " + windSpeed + ";";
+    @Override
+    public String toString() {
+        return "tblWindSpeed{" +
+                "iteration=" + iteration +
+                ", timeStamp=" + timeStamp +
+                ", region=" + region +
+                ", windSpeed=" + windSpeed +
+                '}';
     }
 
     public int getIteration() {
