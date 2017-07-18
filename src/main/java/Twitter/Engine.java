@@ -33,7 +33,7 @@ public class Engine {
             } catch (Exception e) {
                 e.printStackTrace();
                 System.out.println("Invalid Statement: Switching to Standardstatement");
-                epStatement = administrator.createEPL(MainTwitter.DEFAULT_STATEMENT);
+                epStatement = administrator.createEPL(MainTwitterXmpls.DEFAULT_STATEMENT);
                 epStatement.addListener(listener);
             }
         }
