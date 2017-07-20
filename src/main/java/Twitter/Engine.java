@@ -15,6 +15,7 @@ public class Engine {
     public Engine(){
         Configuration configuration = new Configuration();
         configuration.addEventType("tblTweet", tblTweet.class);
+        configuration.addEventType("tblRelations", EventBean.class);
         EPServiceProvider serviceProvider = EPServiceProviderManager.getProvider("myEngine", configuration);
         runtime = serviceProvider.getEPRuntime();
         administrator = serviceProvider.getEPAdministrator();
@@ -26,7 +27,7 @@ public class Engine {
     public void updateStatement(String... statements){
         Listener listener = new Listener();
         for(String statement:statements) {
-            EPStatement epStatement = null;
+            EPStatement epStatement;
             try {
                 epStatement = administrator.createEPL(statement);
                 epStatement.addListener(listener);
@@ -39,8 +40,7 @@ public class Engine {
         }
     }
 
-    //Getter, Setter
-    public EPRuntime getRuntime() {
+    public EPRuntime getRuntime(){
         return runtime;
     }
 }
