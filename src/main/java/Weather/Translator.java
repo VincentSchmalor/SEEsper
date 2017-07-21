@@ -5,26 +5,24 @@ import com.google.gson.Gson;
 
 /**
  * Created by Vincent Schmalor on 04/07/2017.
+ * Translates JSON-Strings in POJOs of tblWeather-template Templates and pushes them into the engine
  */
 public class Translator {
 
     private EPRuntime runtime;
+    Gson gson;
 
-    /**
-     * Prepare Generator
-     * @param runtime
-     */
     public Translator(EPRuntime runtime) {
         this.runtime = runtime;
+        gson = new Gson();
     }
 
     /**
-     * Translate json to usable Object and send it to the engine.
+     * Translate JSON-String to usable POJO and send it to the engine.
      * @param input json to convert
      */
     public void translate(String input){
-        Gson gson = new Gson();
-        tblWeather forecast = gson.fromJson(input,tblWeather.class);
-        runtime.sendEvent(forecast);
+        tblWeather weather = gson.fromJson(input,tblWeather.class);
+        runtime.sendEvent(weather);
     }
 }

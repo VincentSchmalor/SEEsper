@@ -2,6 +2,7 @@ package Weather;
 
 /**
  * Created by vince on 18.07.2017.
+ * Template for items pushed into the engine
  */
 public class tblWeather {
     private String weather;
@@ -40,6 +41,29 @@ public class tblWeather {
         this.description = description;
     }
 
+    @Override
+    public String toString() {
+        return "tblWeather{" +
+                "weather='" + weather + '\'' +
+                ", detail='" + detail + '\'' +
+                ", tempk=" + tempk +
+                ", tempc=" + tempc +
+                ", temp_maxc=" + temp_maxc +
+                ", temp_minc=" + temp_minc +
+                ", humidity=" + humidity +
+                ", maxtemp=" + maxtemp +
+                ", mintemp=" + mintemp +
+                ", windspeed=" + windspeed +
+                ", winddirection=" + winddirection +
+                ", location='" + location + '\'' +
+                ", sunrise=" + sunrise +
+                ", sunset=" + sunset +
+                ", clouds=" + clouds +
+                ", description='" + description + '\'' +
+                '}';
+    }
+
+    //Getters
     public String getDetail() {
         return detail;
     }
@@ -102,27 +126,5 @@ public class tblWeather {
 
     public long getSunset() {
         return sunset;
-    }
-
-    @Override
-    public String toString() {
-        return "tblWeather{" +
-                "weather='" + weather + '\'' +
-                ", detail='" + detail + '\'' +
-                ", tempk=" + tempk +
-                ", tempc=" + tempc +
-                ", temp_maxc=" + temp_maxc +
-                ", temp_minc=" + temp_minc +
-                ", humidity=" + humidity +
-                ", maxtemp=" + maxtemp +
-                ", mintemp=" + mintemp +
-                ", windspeed=" + windspeed +
-                ", winddirection=" + winddirection +
-                ", location='" + location + '\'' +
-                ", sunrise=" + sunrise +
-                ", sunset=" + sunset +
-                ", clouds=" + clouds +
-                ", description='" + description + '\'' +
-                '}';
     }
 }

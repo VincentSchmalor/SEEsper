@@ -6,6 +6,10 @@ import com.rabbitmq.client.*;
 
 import java.io.IOException;
 
+/**
+ * Created by Vincent Schmalor on 04/07/2017.
+ * Get a predefined Weatherstream
+ */
 public class InputListener {
 
     /**

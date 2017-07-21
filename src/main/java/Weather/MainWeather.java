@@ -2,12 +2,14 @@ package Weather;
 
 /**
  * Created by Vincent Schmalor on 18/07/2017.
+ * Main-Method to allocate most important parts
  */
 public class MainWeather {
 
     static final String DEFAULT_Statement = "SELECT * FROM tblWeather";
 
-    //Aktuelles Wetter: Einschränkungen möglich
+    //Show current weather updated every 10 minutes due to node configuration
+    //Restrictions should be added
     static final String STATEMENT1 = "SELECT * FROM tblWeather";
 
     public static void main(String[] args){
