@@ -1,5 +1,9 @@
 package Twitter;
 
+/**
+ * Created by Vincent Schmalor on 20.07.2017.
+ * Template for items pushed into the engine
+ */
 public class tblHashtags {
 
     private String politician;
@@ -18,6 +22,7 @@ public class tblHashtags {
                 '}';
     }
 
+    //Getters
     public String getPolitician() {
         return politician;
     }

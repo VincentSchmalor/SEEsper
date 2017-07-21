@@ -6,14 +6,12 @@ import java.util.ArrayList;
 
 /**
  * Created by Vincent Schmalor on 04/07/2017.
+ * Engine making the magic happen
  */
 public class Engine {
     private EPRuntime runtime;
     private EPAdministrator administrator;
 
-    /**
-     * runnable instance of Engine
-     */
     public Engine(){
         Configuration configuration = new Configuration();
         configuration.addEventType("tblTweet", tblTweet.class);
@@ -24,7 +22,8 @@ public class Engine {
     }
 
     /**
-     * Adjust the selecting STATEMENT1
+     * Add variable count of statements whith a standard Listener
+     * @param statements multiple Statements to add
      */
     public void updateStatement(String... statements){
         Listener listener = new Listener();
@@ -42,6 +41,11 @@ public class Engine {
         }
     }
 
+    /**
+     * Add variable count of statements whith out a Listener
+     * @param statements multiple Statements to add
+     * @return ArrayList of Statments needed to add Listeners
+     */
     public ArrayList<EPStatement> updateCustomStatement(String... statements){
         ArrayList<EPStatement> epStatements = new ArrayList<EPStatement>();
         for(int i=0;i<statements.length;i++) {

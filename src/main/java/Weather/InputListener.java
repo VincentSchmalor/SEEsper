@@ -9,7 +9,6 @@ import java.io.IOException;
 public class InputListener {
 
     /**
-     * Standard Contructor
      * @param runtime runtime of the engine
      */
     public InputListener(EPRuntime runtime){

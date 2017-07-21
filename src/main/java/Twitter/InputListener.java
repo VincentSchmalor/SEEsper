@@ -12,10 +12,13 @@ import com.rabbitmq.client.Consumer;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
 
+/**
+ * Created by Vincent Schmalor on 04/07/2017.
+ * Get a predefined Twitterstream
+ */
 public class InputListener{
 
     /**
-     * Standard Contructor
      * @param runtime runtime of the engine
      */
     public InputListener(EPRuntime runtime){

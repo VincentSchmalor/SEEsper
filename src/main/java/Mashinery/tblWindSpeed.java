@@ -1,7 +1,8 @@
 package Mashinery;
 
 /**
- * Created by vince on 17.07.2017.
+ * Created by Vincent Schmalor on 17.07.2017.
+ * Template for items pushed into the engine
  */
 public class tblWindSpeed {
 
@@ -27,6 +28,7 @@ public class tblWindSpeed {
                 '}';
     }
 
+    //Getters
     public int getIteration() {
         return iteration;
     }

@@ -2,6 +2,7 @@ package Twitter;
 
 /**
  * Created by Vincent Schmalor on 04/07/2017.
+ * Template for items pushed into the engine
  */
 public class tblTweet {
     String topic;
@@ -81,6 +82,7 @@ public class tblTweet {
                 '}';
     }
 
+    //Getters
     public String getTopic() {
         return topic;
     }

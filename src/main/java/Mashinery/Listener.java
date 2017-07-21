@@ -5,6 +5,7 @@ import com.espertech.esper.client.UpdateListener;
 
 /**
  * Created by Vincent Schmalor on 04/07/2017.
+ * Decides what to do if the statement picks an event
  */
 public class Listener implements UpdateListener {
 
