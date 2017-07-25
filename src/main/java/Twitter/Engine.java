@@ -16,6 +16,9 @@ public class Engine {
         Configuration configuration = new Configuration();
         configuration.addEventType("tblTweet", tblTweet.class);
         configuration.addEventType("tblHashtags", tblHashtags.class);
+        configuration.addEventType("tblNFTweet", tblNFTweet.class);
+        configuration.addEventType("tblNFUser", tblNFUser.class);
+        configuration.addEventType("tblNFHashtag", tblNFHashtag.class);
         EPServiceProvider serviceProvider = EPServiceProviderManager.getProvider("myEngine", configuration);
         runtime = serviceProvider.getEPRuntime();
         administrator = serviceProvider.getEPAdministrator();

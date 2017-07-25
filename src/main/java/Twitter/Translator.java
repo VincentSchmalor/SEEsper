@@ -21,8 +21,23 @@ public class Translator {
      * Translate JSON-String to usable POJO and send it to the engine.
      * @param input json to convert
      */
-    public void translate(String input){
+    public void translateAllInOne(String input){
         tblTweet tweet = gson.fromJson(input,tblTweet.class);
         runtime.sendEvent(tweet);
+    }
+
+    public void translateNFTweet(String input){
+        tblNFTweet nfTweet = gson.fromJson(input,tblNFTweet.class);
+        runtime.sendEvent(nfTweet);
+    }
+
+    public void translateNFUser(String input){
+        tblNFUser nfUser = gson.fromJson(input,tblNFUser.class);
+        runtime.sendEvent(nfUser);
+    }
+
+    public void translateNFHashtag(String input){
+        tblNFHashtag nfHashtag = gson.fromJson(input,tblNFHashtag.class);
+        runtime.sendEvent(nfHashtag);
     }
 }
