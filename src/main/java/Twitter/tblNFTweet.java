@@ -7,13 +7,15 @@ public class tblNFTweet {
     private String text;
     private String lang;
     private long quotedStatus;
+    private int sentiment;
 
-    public tblNFTweet(long tweetID, long userID, String text, String lang, long quotedStatus) {
+    public tblNFTweet(long tweetID, long userID, String text, String lang, long quotedStatus, int sentiment) {
         this.tweetID = tweetID;
         this.userID = userID;
         this.text = text;
         this.lang = lang;
         this.quotedStatus = quotedStatus;
+        this.sentiment = sentiment;
     }
 
     @Override
@@ -24,6 +26,7 @@ public class tblNFTweet {
                 ", text='" + text + '\'' +
                 ", lang='" + lang + '\'' +
                 ", quotedStatus=" + quotedStatus +
+                ", sentiment=" + sentiment +
                 '}';
     }
 
@@ -45,5 +48,9 @@ public class tblNFTweet {
 
     public long getQuotedStatus() {
         return quotedStatus;
+    }
+
+    public int getSentiment() {
+        return sentiment;
     }
 }
