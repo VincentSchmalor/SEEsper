@@ -27,6 +27,7 @@ public class InputListener{
             factory.setHost("localhost");
             final Connection con = factory.newConnection();
             final Translator translator = new Translator(runtime);
+
             //Twitterout Channel
             Channel twitteroutChannel = con.createChannel();
             String twitteroutQueueName = twitteroutChannel.queueDeclare().getQueue();

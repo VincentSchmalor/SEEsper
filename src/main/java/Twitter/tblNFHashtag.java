@@ -1,5 +1,9 @@
 package Twitter;
 
+/**
+ * Created by Vincent Schmalor on 25.07.2017.
+ * Template for items pushed into the engine
+ */
 public class tblNFHashtag {
 
     private long tweetID;
@@ -18,6 +22,7 @@ public class tblNFHashtag {
                 '}';
     }
 
+    //Getters
     public long getTweetID() {
         return tweetID;
     }

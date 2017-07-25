@@ -1,5 +1,9 @@
 package Twitter;
 
+/**
+ * Created by Vincent Schmalor on 25.07.2017.
+ * Template for items pushed into the engine
+ */
 public class tblNFUser {
 
     private long userID;
@@ -42,6 +46,7 @@ public class tblNFUser {
                 '}';
     }
 
+    //Getters
     public long getUserID() {
         return userID;
     }
