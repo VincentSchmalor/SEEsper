@@ -4,8 +4,8 @@ package Twitter;
  * Created by Vincent Schmalor on 25.07.2017.
  * Template for items pushed into the engine
  */
-public class tblNFUser {
-
+public class tblNFUser{
+    
     private long userID;
     private String username;
     private String screenname;
@@ -16,8 +16,8 @@ public class tblNFUser {
     private int friends;
     private int favourites;
     private int statuses;
-
-    public tblNFUser(long userID, String username, String screenname, String location, String lang, String description, int followers, int friends, int favourites, int statuses) {
+    
+    public tblNFUser(long userID, String username, String screenname, String location, String lang, String description, int followers, int friends, int favourites, int statuses){
         this.userID = userID;
         this.username = username;
         this.screenname = screenname;
@@ -29,61 +29,50 @@ public class tblNFUser {
         this.favourites = favourites;
         this.statuses = statuses;
     }
-
+    
     @Override
-    public String toString() {
-        return "tblNFUser{" +
-                "userID=" + userID +
-                ", username='" + username + '\'' +
-                ", screenname='" + screenname + '\'' +
-                ", location='" + location + '\'' +
-                ", lang='" + lang + '\'' +
-                ", description='" + description + '\'' +
-                ", followers=" + followers +
-                ", friends=" + friends +
-                ", favourites=" + favourites +
-                ", statuses=" + statuses +
-                '}';
+    public String toString(){
+        return "tblNFUser{" + "userID=" + userID + ", username='" + username + '\'' + ", screenname='" + screenname + '\'' + ", location='" + location + '\'' + ", lang='" + lang + '\'' + ", description='" + description + '\'' + ", followers=" + followers + ", friends=" + friends + ", favourites=" + favourites + ", statuses=" + statuses + '}';
     }
-
+    
     //Getters
-    public long getUserID() {
+    public long getUserID(){
         return userID;
     }
-
-    public String getUsername() {
+    
+    public String getUsername(){
         return username;
     }
-
-    public String getScreenname() {
+    
+    public String getScreenname(){
         return screenname;
     }
-
-    public String getLocation() {
+    
+    public String getLocation(){
         return location;
     }
-
-    public String getLang() {
+    
+    public String getLang(){
         return lang;
     }
-
-    public String getDescription() {
+    
+    public String getDescription(){
         return description;
     }
-
-    public int getFollowers() {
+    
+    public int getFollowers(){
         return followers;
     }
-
-    public int getFriends() {
+    
+    public int getFriends(){
         return friends;
     }
-
-    public int getFavourites() {
+    
+    public int getFavourites(){
         return favourites;
     }
-
-    public int getStatuses() {
+    
+    public int getStatuses(){
         return statuses;
     }
 }

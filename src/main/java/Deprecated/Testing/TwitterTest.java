@@ -1,6 +1,9 @@
 package Deprecated.Testing;
 
-import twitter4j.*;
+import twitter4j.Status;
+import twitter4j.Twitter;
+import twitter4j.TwitterException;
+import twitter4j.TwitterFactory;
 import twitter4j.auth.AccessToken;
 import twitter4j.auth.RequestToken;
 
@@ -11,7 +14,7 @@ import java.util.List;
 /**
  * Created by Vincent Schmalor on 22/06/2017.
  */
-public class TwitterTest {
+public class TwitterTest{
     public static void main(String args[]) throws Exception{
         // The factory instance is re-useable and thread safe.
         Twitter twitter = TwitterFactory.getSingleton();
@@ -19,7 +22,7 @@ public class TwitterTest {
         RequestToken requestToken = twitter.getOAuthRequestToken();
         AccessToken accessToken = null;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        while (null == accessToken) {
+        while(null == accessToken){
             System.out.println("Öffnen Sie die folgende Website, um Zugang zum Account zu gewähren:");
             System.out.println(requestToken.getAuthorizationURL());
             System.out.println("Gegen Sie hier die PIN von der Website ein:");
@@ -30,7 +33,7 @@ public class TwitterTest {
                 }else{
                     accessToken = twitter.getOAuthAccessToken();
                 }
-            } catch (TwitterException te) {
+            }catch(TwitterException te){
                 if(401 == te.getStatusCode()){
                     System.out.println("Kein Zugang zum Accesstoken");
                 }else{
@@ -42,9 +45,8 @@ public class TwitterTest {
         //storeAccessToken((int) twitter.verifyCredentials().getId(), accessToken);
         List<Status> statuses = twitter.getHomeTimeline();
         System.out.println("\n\nZeige Timeline:");
-        for (Status status : statuses) {
-            System.out.println("\n" + status.getUser().getName() + ":" +
-                    status.getText());
+        for(Status status : statuses){
+            System.out.println("\n" + status.getUser().getName() + ":" + status.getText());
         }
         System.exit(0);
     }
@@ -53,5 +55,5 @@ public class TwitterTest {
         store accessToken.getToken()
         store accessToken.getTokenSecret()
     }*/
-
+    
 }

@@ -10,8 +10,8 @@ import java.io.IOException;
  * Created by Vincent Schmalor on 04/07/2017.
  * Get a predefined Weatherstream
  */
-public class InputListener {
-
+public class InputListener{
+    
     /**
      * @param runtime runtime of the engine
      */
@@ -24,16 +24,16 @@ public class InputListener {
             Channel channel = con.createChannel();
             String queueName = channel.queueDeclare().getQueue();
             channel.queueBind(queueName, "weatherout", "");
-            Consumer consumer = new DefaultConsumer(channel) {
+            Consumer consumer = new DefaultConsumer(channel){
                 @Override
-                public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
+                public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException{
                     translator.translate(new String(body, "UTF-8"));
                 }
             };
-
+            
             channel.basicConsume(queueName, true, consumer);
-
-        } catch (Exception e) {
+            
+        }catch(Exception e){
             e.printStackTrace();
         }
     }

@@ -4,7 +4,7 @@ package Weather;
  * Created by vince on 18.07.2017.
  * Template for items pushed into the engine
  */
-public class tblWeather {
+public class tblWeather{
     private String weather;
     private String detail;
     private double tempk;
@@ -21,8 +21,8 @@ public class tblWeather {
     private long sunset;
     private double clouds;
     private String description;
-
-    public tblWeather(String weather, String detail, double tempk, double tempc, double temp_maxc, double temp_minc, double humidity, double maxtemp, double mintemp, double windspeed, double winddirection, String location, long sunrise, long sunset, double clouds, String description) {
+    
+    public tblWeather(String weather, String detail, double tempk, double tempc, double temp_maxc, double temp_minc, double humidity, double maxtemp, double mintemp, double windspeed, double winddirection, String location, long sunrise, long sunset, double clouds, String description){
         this.weather = weather;
         this.detail = detail;
         this.tempk = tempk;
@@ -40,91 +40,74 @@ public class tblWeather {
         this.clouds = clouds;
         this.description = description;
     }
-
+    
     @Override
-    public String toString() {
-        return "tblWeather{" +
-                "weather='" + weather + '\'' +
-                ", detail='" + detail + '\'' +
-                ", tempk=" + tempk +
-                ", tempc=" + tempc +
-                ", temp_maxc=" + temp_maxc +
-                ", temp_minc=" + temp_minc +
-                ", humidity=" + humidity +
-                ", maxtemp=" + maxtemp +
-                ", mintemp=" + mintemp +
-                ", windspeed=" + windspeed +
-                ", winddirection=" + winddirection +
-                ", location='" + location + '\'' +
-                ", sunrise=" + sunrise +
-                ", sunset=" + sunset +
-                ", clouds=" + clouds +
-                ", description='" + description + '\'' +
-                '}';
+    public String toString(){
+        return "tblWeather{" + "weather='" + weather + '\'' + ", detail='" + detail + '\'' + ", tempk=" + tempk + ", tempc=" + tempc + ", temp_maxc=" + temp_maxc + ", temp_minc=" + temp_minc + ", humidity=" + humidity + ", maxtemp=" + maxtemp + ", mintemp=" + mintemp + ", windspeed=" + windspeed + ", winddirection=" + winddirection + ", location='" + location + '\'' + ", sunrise=" + sunrise + ", sunset=" + sunset + ", clouds=" + clouds + ", description='" + description + '\'' + '}';
     }
-
+    
     //Getters
-    public String getDetail() {
+    public String getDetail(){
         return detail;
     }
-
-    public double getTempc() {
+    
+    public double getTempc(){
         return tempc;
     }
-
-    public double getTemp_maxc() {
+    
+    public double getTemp_maxc(){
         return temp_maxc;
     }
-
-    public double getTemp_minc() {
+    
+    public double getTemp_minc(){
         return temp_minc;
     }
-
-    public double getHumidity() {
+    
+    public double getHumidity(){
         return humidity;
     }
-
-    public double getWindspeed() {
+    
+    public double getWindspeed(){
         return windspeed;
     }
-
-    public String getLocation() {
+    
+    public String getLocation(){
         return location;
     }
-
-    public double getClouds() {
+    
+    public double getClouds(){
         return clouds;
     }
-
-    public String getDescription() {
+    
+    public String getDescription(){
         return description;
     }
-
-    public String getWeather() {
+    
+    public String getWeather(){
         return weather;
     }
-
-    public double getTempk() {
+    
+    public double getTempk(){
         return tempk;
     }
-
-    public double getMaxtemp() {
+    
+    public double getMaxtemp(){
         return maxtemp;
     }
-
-    public double getMintemp() {
+    
+    public double getMintemp(){
         return mintemp;
     }
-
-    public double getWinddirection() {
+    
+    public double getWinddirection(){
         return winddirection;
     }
-
-    public long getSunrise() {
+    
+    public long getSunrise(){
         return sunrise;
     }
-
-    public long getSunset() {
+    
+    public long getSunset(){
         return sunset;
     }
 }

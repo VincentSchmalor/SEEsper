@@ -2,23 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="772d2c0e-b450-4701-a4fb-9907ac48046e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Twitter/MainCustomQuery.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Twitter/MainCustomQuery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/InputListener$1.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/InputListener$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/InputListener$2.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/InputListener$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/InputListener$3.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/InputListener$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/InputListener$4.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/InputListener$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/InputListener.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/InputListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterJoin.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterJoin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/tblNFHashtag.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/tblNFHashtag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/tblNFTweet.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/tblNFTweet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/tblNFUser.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/tblNFUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Handlers/EngineHandler.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Handlers/EngineHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Handlers/OfflineHandler.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Handlers/OfflineHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Handlers/StreamHandler.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Handlers/StreamHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Handlers/TwitterHandler.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Handlers/TwitterHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Listeners/Listener.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Listeners/Listener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Main/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Main/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Tables/tblTimeLine.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Tables/tblTimeLine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Testing/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Testing/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Testing/TwitterTest.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Testing/TwitterTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Mashinery/Engine.java" afterPath="$PROJECT_DIR$/src/main/java/Mashinery/Engine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Mashinery/Generator.java" afterPath="$PROJECT_DIR$/src/main/java/Mashinery/Generator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Mashinery/Listener.java" afterPath="$PROJECT_DIR$/src/main/java/Mashinery/Listener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Mashinery/MainWindSpeed.java" afterPath="$PROJECT_DIR$/src/main/java/Mashinery/MainWindSpeed.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Mashinery/tblWindSpeed.java" afterPath="$PROJECT_DIR$/src/main/java/Mashinery/tblWindSpeed.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/Engine.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/Engine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/InputListener.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/InputListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/Listener.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/Listener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/MainCustomQuery.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/MainCustomQuery.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterJoin.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterJoin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterMostFollowers.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterMostFollowers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterRelations.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterRelations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterSentiment.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterSentiment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterTests.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterXmpls.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterXmpls.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/RelationsListener.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/RelationsListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/Translator.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/Translator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/tblHashtags.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/tblHashtags.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/tblNFHashtag.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/tblNFHashtag.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/tblNFTweet.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/tblNFTweet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/tblNFUser.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/tblNFUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/tblTweet.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/tblTweet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Weather/Engine.java" afterPath="$PROJECT_DIR$/src/main/java/Weather/Engine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Weather/InputListener.java" afterPath="$PROJECT_DIR$/src/main/java/Weather/InputListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Weather/Listener.java" afterPath="$PROJECT_DIR$/src/main/java/Weather/Listener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Weather/MainWeather.java" afterPath="$PROJECT_DIR$/src/main/java/Weather/MainWeather.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Weather/Translator.java" afterPath="$PROJECT_DIR$/src/main/java/Weather/Translator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Weather/tblWeather.java" afterPath="$PROJECT_DIR$/src/main/java/Weather/tblWeather.java" />
     </list>
     <ignored path="Test3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,18 +64,18 @@
       <file leaf-file-name="tblNFTweet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/tblNFTweet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tblNFUser.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tblNFUser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/tblNFUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="629">
+              <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -73,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterMostFollowers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -83,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/InputListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -93,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+              <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -109,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainCustomQuery.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainCustomQuery.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainCustomQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="697">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -241,7 +263,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -265,8 +289,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,9 +296,10 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -661,12 +684,13 @@
       <option name="presentableId" value="Default" />
       <updated>1497886440385</updated>
       <workItem from="1500979367044" duration="5259000" />
-      <workItem from="1501015209086" duration="2658000" />
+      <workItem from="1501015209086" duration="2721000" />
+      <workItem from="1501063687559" duration="1260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7917000" />
+    <option name="totallyTimeSpent" value="9240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -683,19 +707,20 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32673267" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42145178" sideWeight="0.50416666" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40365574" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40365574" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977912" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24882813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -708,8 +733,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32673267" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -735,7 +760,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2017-06-29-09-20-44.txt" />
     <entry file="file://$PROJECT_DIR$/abc.txt" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/TreeMap.java" />
     <entry file="file://$PROJECT_DIR$/abc.txt" />
@@ -1119,14 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/tblNFTweet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Deprecated/Handlers/TwitterHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1159,14 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/tblNFUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Deprecated/Main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1175,27 +1183,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/InputListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainCustomQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterMostFollowers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="697">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1203,6 +1197,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/InputListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterMostFollowers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1215,13 +1233,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainCustomQuery.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/tblNFTweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/tblNFUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,6 +1263,18 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>Standard</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

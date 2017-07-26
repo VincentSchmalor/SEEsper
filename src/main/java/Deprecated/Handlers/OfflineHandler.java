@@ -11,33 +11,33 @@ import java.util.Calendar;
 /**
  * Created by Vincent Schmalor on 29/06/2017.
  */
-public class OfflineHandler {
-
+public class OfflineHandler{
+    
     private Calendar cal = Calendar.getInstance();
     private SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
     private String now = sdf.format(cal.getTime());
     private Gson gson = new Gson();
-
+    
     public void createFile(){
-        try {
+        try{
             PrintWriter writer = new PrintWriter(now + ".txt", "UTF-8");
             //writer.print("[");
             writer.close();
-        }catch (Exception e){
+        }catch(Exception e){
             e.printStackTrace();
         }
     }
-
+    
     public void schreiben(tblTimeLine timeLine){
-        try {
+        try{
             BufferedReader reader;
-            if (!new File(now + ".txt").exists()) {
+            if(!new File(now + ".txt").exists()){
                 new File(now + ".txt").createNewFile();
             }
             reader = new BufferedReader(new FileReader(now + ".txt"));
             StringBuilder sb = new StringBuilder();
             String line = reader.readLine();
-            while (line != null) {
+            while(line != null){
                 sb.append(line);
                 sb.append("\n");
                 line = reader.readLine();
@@ -47,13 +47,13 @@ public class OfflineHandler {
             writer.print(everything + gson.toJson(timeLine));
             reader.close();
             writer.close();
-        }catch (IOException e){
+        }catch(IOException e){
             e.printStackTrace();
         }
     }
-
+    
     public ArrayList<tblTimeLine> lesen(){
-        try {
+        try{
             System.out.println("Welchen File möchten Sie lesen?");
             String eingabe = "";
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -61,14 +61,14 @@ public class OfflineHandler {
             ArrayList<tblTimeLine> set = new ArrayList<tblTimeLine>();
             BufferedReader reader = new BufferedReader(new FileReader(eingabe + ".txt"));
             String line = reader.readLine();
-            while (line != null) {
+            while(line != null){
                 set.add(gson.fromJson(line, tblTimeLine.class));
                 line = reader.readLine();
             }
-
+            
             //Gelesenen Input in Objekte verpacken
             return set;
-        } catch (Exception e) {
+        }catch(Exception e){
             e.printStackTrace();
         }
         return null;

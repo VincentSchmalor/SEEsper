@@ -12,20 +12,20 @@ import java.util.HashMap;
  * Specialized Listener for TwitterRelations Usecase
  */
 public class RelationsListener implements UpdateListener{
-
+    
     EPRuntime runtime;
-
-    public RelationsListener(EPRuntime runtime) {
+    
+    public RelationsListener(EPRuntime runtime){
         this.runtime = runtime;
     }
-
-    public void update(EventBean[] eventBeans, EventBean[] eventBeans1) {
+    
+    public void update(EventBean[] eventBeans, EventBean[] eventBeans1){
         HashMap<String, Object> resultmap = (HashMap<String, Object>) eventBeans[0].getUnderlying();
-        tblHashtags hashtag1 = new tblHashtags((String) resultmap.get("politiker"),(String) resultmap.get("hashtag1"));
-        tblHashtags hashtag2 = new tblHashtags((String) resultmap.get("politiker"),(String) resultmap.get("hashtag2"));
-        tblHashtags hashtag3 = new tblHashtags((String) resultmap.get("politiker"),(String) resultmap.get("hashtag3"));
-        tblHashtags hashtag4 = new tblHashtags((String) resultmap.get("politiker"),(String) resultmap.get("hashtag4"));
-        tblHashtags hashtag5 = new tblHashtags((String) resultmap.get("politiker"),(String) resultmap.get("hashtag5"));
+        tblHashtags hashtag1 = new tblHashtags((String) resultmap.get("politiker"), (String) resultmap.get("hashtag1"));
+        tblHashtags hashtag2 = new tblHashtags((String) resultmap.get("politiker"), (String) resultmap.get("hashtag2"));
+        tblHashtags hashtag3 = new tblHashtags((String) resultmap.get("politiker"), (String) resultmap.get("hashtag3"));
+        tblHashtags hashtag4 = new tblHashtags((String) resultmap.get("politiker"), (String) resultmap.get("hashtag4"));
+        tblHashtags hashtag5 = new tblHashtags((String) resultmap.get("politiker"), (String) resultmap.get("hashtag5"));
         runtime.sendEvent(hashtag1);
         runtime.sendEvent(hashtag2);
         runtime.sendEvent(hashtag3);
