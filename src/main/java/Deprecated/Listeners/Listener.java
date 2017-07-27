@@ -9,6 +9,7 @@ import com.espertech.esper.client.UpdateListener;
  * Created by Vincent Schmalor on 22/06/2017.
  */
 public class Listener implements UpdateListener{
+    
     /**
      * Methode, die die folgende Vorgehensweise festlegt, wenn ein Event eintrifft
      *

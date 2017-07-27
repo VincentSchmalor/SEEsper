@@ -7,6 +7,7 @@ import com.espertech.esper.client.*;
  * Engine making the magic happen
  */
 public class Engine{
+    
     private EPRuntime runtime;
     private EPAdministrator administrator;
     

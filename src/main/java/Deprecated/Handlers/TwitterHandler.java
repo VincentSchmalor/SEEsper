@@ -13,6 +13,7 @@ import java.io.InputStreamReader;
  * Created by Vincent Schmalor on 22/06/2017.
  */
 public class TwitterHandler{
+    
     //Deklasration
     private Twitter twitter = TwitterFactory.getSingleton();
     

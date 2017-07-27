@@ -5,6 +5,7 @@ package Weather;
  * Template for items pushed into the engine
  */
 public class tblWeather{
+    
     private String weather;
     private String detail;
     private double tempk;

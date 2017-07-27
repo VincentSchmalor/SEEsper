@@ -5,6 +5,7 @@ package Twitter;
  * Template for items pushed into the engine
  */
 public class tblTweet{
+    
     String topic;
     String tweetlang;
     String created_at;

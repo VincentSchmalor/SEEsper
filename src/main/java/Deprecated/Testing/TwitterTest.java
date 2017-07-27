@@ -15,6 +15,7 @@ import java.util.List;
  * Created by Vincent Schmalor on 22/06/2017.
  */
 public class TwitterTest{
+    
     public static void main(String args[]) throws Exception{
         // The factory instance is re-useable and thread safe.
         Twitter twitter = TwitterFactory.getSingleton();

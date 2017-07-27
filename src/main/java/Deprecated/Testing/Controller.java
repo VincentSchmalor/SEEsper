@@ -54,6 +54,7 @@ public class Controller{
      * Legt das Schema eines Events an. Besitzt Symbol, Preis und Zeitstempel
      */
     public static class Tick{
+        
         String symbol;
         Double price;
         Date timeStamp;
@@ -86,6 +87,7 @@ public class Controller{
      * Wartet auf Erzeugen eines Events durch das Statement. Implementiert, was folgen soll, falls ein Event eintritt
      */
     public static class CEPListener implements UpdateListener{
+        
         //Wird automatisch von der Engine angesprochen
         public void update(EventBean[] newData, EventBean[] oldData){
             System.out.println("Event received: " + newData[0].getUnderlying());

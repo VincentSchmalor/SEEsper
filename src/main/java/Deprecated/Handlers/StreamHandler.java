@@ -13,6 +13,7 @@ import java.util.List;
  * Created by Vincent Schmalor on 22/06/2017.
  */
 public class StreamHandler{
+    
     private OfflineHandler offline = new OfflineHandler();
     
     /**
