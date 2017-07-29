@@ -2,56 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="772d2c0e-b450-4701-a4fb-9907ac48046e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Deprecated/Handlers/EngineHandler.class" afterPath="$PROJECT_DIR$/target/classes/Deprecated/Handlers/EngineHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Deprecated/Handlers/StreamHandler.class" afterPath="$PROJECT_DIR$/target/classes/Deprecated/Handlers/StreamHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Deprecated/Handlers/TwitterHandler.class" afterPath="$PROJECT_DIR$/target/classes/Deprecated/Handlers/TwitterHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Deprecated/Listeners/Listener.class" afterPath="$PROJECT_DIR$/target/classes/Deprecated/Listeners/Listener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Deprecated/Main/Main.class" afterPath="$PROJECT_DIR$/target/classes/Deprecated/Main/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Deprecated/Tables/tblTimeLine.class" afterPath="$PROJECT_DIR$/target/classes/Deprecated/Tables/tblTimeLine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Deprecated/Testing/Controller$CEPListener.class" afterPath="$PROJECT_DIR$/target/classes/Deprecated/Testing/Controller$CEPListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Deprecated/Testing/Controller$Tick.class" afterPath="$PROJECT_DIR$/target/classes/Deprecated/Testing/Controller$Tick.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Deprecated/Testing/Controller.class" afterPath="$PROJECT_DIR$/target/classes/Deprecated/Testing/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Deprecated/Testing/TwitterTest.class" afterPath="$PROJECT_DIR$/target/classes/Deprecated/Testing/TwitterTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Mashinery/Engine.class" afterPath="$PROJECT_DIR$/target/classes/Mashinery/Engine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Mashinery/Listener.class" afterPath="$PROJECT_DIR$/target/classes/Mashinery/Listener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Mashinery/MainWindSpeed.class" afterPath="$PROJECT_DIR$/target/classes/Mashinery/MainWindSpeed.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Mashinery/tblWindSpeed.class" afterPath="$PROJECT_DIR$/target/classes/Mashinery/tblWindSpeed.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/Engine.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/Engine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/InputListener$1.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/InputListener$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/InputListener$2.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/InputListener$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/InputListener$3.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/InputListener$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/InputListener$4.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/InputListener$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/InputListener.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/InputListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/Listener.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/Listener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/MainCustomQuery.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/MainCustomQuery.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterJoin.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterJoin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterMostFollowers.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterMostFollowers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterRelations.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterRelations.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterJoin.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterSentiment.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterSentiment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterTests.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterXmpls.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/MainTwitterXmpls.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/Translator.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/Translator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/tblHashtags.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/tblHashtags.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/tblNFHashtag.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/tblNFHashtag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/tblNFTweet.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/tblNFTweet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/tblNFUser.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/tblNFUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter/tblTweet.class" afterPath="$PROJECT_DIR$/target/classes/Twitter/tblTweet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Weather/Engine.class" afterPath="$PROJECT_DIR$/target/classes/Weather/Engine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Weather/Listener.class" afterPath="$PROJECT_DIR$/target/classes/Weather/Listener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Weather/Translator.class" afterPath="$PROJECT_DIR$/target/classes/Weather/Translator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Weather/tblWeather.class" afterPath="$PROJECT_DIR$/target/classes/Weather/tblWeather.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Handlers/StreamHandler.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Handlers/StreamHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Handlers/TwitterHandler.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Handlers/TwitterHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Listeners/Listener.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Listeners/Listener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Tables/tblTimeLine.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Tables/tblTimeLine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Testing/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Testing/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deprecated/Testing/TwitterTest.java" afterPath="$PROJECT_DIR$/src/main/java/Deprecated/Testing/TwitterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Mashinery/Engine.java" afterPath="$PROJECT_DIR$/src/main/java/Mashinery/Engine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/Engine.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/Engine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/tblTweet.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/tblTweet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Weather/Engine.java" afterPath="$PROJECT_DIR$/src/main/java/Weather/Engine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Weather/tblWeather.java" afterPath="$PROJECT_DIR$/src/main/java/Weather/tblWeather.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterSentiment.java" afterPath="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterSentiment.java" />
     </list>
     <ignored path="Test3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,76 +32,6 @@
       <file leaf-file-name="tblNFTweet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/tblNFTweet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tblNFUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/tblNFUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainTwitterJoin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterJoin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainTwitterSentiment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterSentiment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainTwitterMostFollowers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterMostFollowers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/InputListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/Engine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tblNFHashtag.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/tblNFHashtag.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
@@ -155,14 +39,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainCustomQuery.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainCustomQuery.java">
+      <file leaf-file-name="MainTwitterSentiment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterSentiment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="156" lean-forward="false" selection-start-line="9" selection-start-column="156" selection-end-line="9" selection-end-column="156" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTwitterTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTwitterXmpls.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterXmpls.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTwitterRelations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterRelations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -197,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/tblTimeLine.java" />
         <option value="$PROJECT_DIR$/src/main/java/TwitterAnalysis.java" />
         <option value="$PROJECT_DIR$/src/main/java/TwitterHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/EngineHandler.java" />
@@ -236,7 +147,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Mashinery/tblWindSpeed.java" />
         <option value="$PROJECT_DIR$/src/main/java/Weather/Engine.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mashinery/Generator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterSentiment.java" />
         <option value="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterHashtagCorrelation.java" />
         <option value="$PROJECT_DIR$/src/main/java/Twitter/Translator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Twitter/Engine.java" />
@@ -248,6 +158,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Twitter/CustomQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterJoin.java" />
         <option value="$PROJECT_DIR$/src/main/java/Twitter/MainCustomQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterMostFollowers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Twitter/MainTwitterSentiment.java" />
       </list>
     </option>
   </component>
@@ -303,7 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -327,6 +238,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="ProjectPane" />
       <pane id="Scratches" />
     </panes>
@@ -364,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Multirun.RunPresentation">
+  <component name="RunManager" selected="Multirun.RunAll">
     <configuration name="CustomQuery" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Twitter.MainCustomQuery" />
@@ -379,10 +291,19 @@
       <module name="SE" />
       <envs />
     </configuration>
-    <configuration name="RunPresentation" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="false" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
-      <runConfiguration name="TwitterSentiment" type="Application" />
+    <configuration name="RunAll" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
       <runConfiguration name="TwitterRelations" type="Application" />
-      <runConfiguration name="TwitterJoin" type="Application" />
+      <runConfiguration name="TwitterSentiment" type="Application" />
+      <runConfiguration name="TwitterXmls" type="Application" />
+      <runConfiguration name="TwitterMostFollowers" type="Application" />
+      <runConfiguration name="WeatherForecast" type="Application" />
+      <runConfiguration name="WindSpeed" type="Application" />
+      <runConfiguration name="CustomQuery" type="Application" />
+    </configuration>
+    <configuration name="RunPresentation" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="false" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <runConfiguration name="TwitterMostFollowers" type="Application" />
+      <runConfiguration name="TwitterRelations" type="Application" />
+      <runConfiguration name="TwitterSentiment" type="Application" />
       <runConfiguration name="WindSpeed" type="Application" />
       <runConfiguration name="WeatherForecast" type="Application" />
     </configuration>
@@ -706,7 +627,7 @@
       <envs />
       <method />
     </configuration>
-    <list size="9">
+    <list size="10">
       <item index="0" class="java.lang.String" itemvalue="Application.TwitterRelations" />
       <item index="1" class="java.lang.String" itemvalue="Application.TwitterSentiment" />
       <item index="2" class="java.lang.String" itemvalue="Application.TwitterXmls" />
@@ -716,6 +637,7 @@
       <item index="6" class="java.lang.String" itemvalue="Application.WindSpeed" />
       <item index="7" class="java.lang.String" itemvalue="Application.CustomQuery" />
       <item index="8" class="java.lang.String" itemvalue="Multirun.RunPresentation" />
+      <item index="9" class="java.lang.String" itemvalue="Multirun.RunAll" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -735,12 +657,13 @@
       <workItem from="1501015209086" duration="2721000" />
       <workItem from="1501063687559" duration="3679000" />
       <workItem from="1501178591071" duration="1485000" />
-      <workItem from="1501180151023" duration="290000" />
+      <workItem from="1501180151023" duration="1797000" />
+      <workItem from="1501363201062" duration="5209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13434000" />
+    <option name="totallyTimeSpent" value="20150000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,8 +686,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42145178" sideWeight="0.50416666" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40365574" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40365574" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -774,8 +697,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -854,7 +777,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Moduled/tblTweet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Moduled/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Moduled/Listener.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterXmpls.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Weather/Listener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -914,15 +836,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/RelationsListener.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterHashtagCorrelation.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterRelations.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="171" lean-forward="false" selection-start-line="14" selection-start-column="171" selection-end-line="14" selection-end-column="171" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Mashinery/MainWindSpeed.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1228,30 +1141,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/tblNFTweet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/tblNFUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterMostFollowers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/InputListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1276,6 +1165,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/tblNFUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainCustomQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -1286,18 +1183,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterJoin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterMostFollowers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterSentiment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="153">
+          <caret line="9" column="156" lean-forward="false" selection-start-line="9" selection-start-column="156" selection-end-line="9" selection-end-column="156" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/tblNFTweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterRelations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Twitter/MainTwitterXmpls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>

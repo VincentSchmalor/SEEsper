@@ -7,12 +7,15 @@ package Twitter;
 public class MainTwitterSentiment{
     
     //Show average Sentiment of the last 10 incoming events for each politician
-    static final String useCase1Helper2 = "as NAME, avg(sentiment) as AverageSentiment FROM tblTweet.win:length_batch(10) WHERE sentiment IS NOT NULL AND text LIKE";
-    static final String STATEMENT16 = "SELECT 'TRUMP' " + useCase1Helper2 + " '%#Trump%'";
-    static final String STATEMENT17 = "SELECT 'MERKEL' " + useCase1Helper2 + " '%#Merkel%'";
-    static final String STATEMENT18 = "SELECT 'PUTIN' " + useCase1Helper2 + " '%#Putin%'";
-    static final String STATEMENT19 = "SELECT 'MACRON' " + useCase1Helper2 + " '%#Macron%'";
-    static final String STATEMENT20 = "SELECT 'TRUDEAU' " + useCase1Helper2 + " '%#Trudeau%'";
+    static final String useCase1Helper2 = "SELECT hashtag.hashtag as NAME, avg(tweet.sentiment) as AverageSentiment, avg(user.followers) as AverageFollowers FROM tblNFTweet.win:length_batch(10) AS tweet " +
+            "INNER JOIN tblNFHashtag.std:unique(tweetID) AS hashtag ON tweet.tweetID = hashtag.tweetID " +
+            "INNER JOIN tblNFUser.win:length_batch(10) AS user ON tweet.userID = user.userID " +
+            "WHERE sentiment IS NOT NULL AND hashtag.hashtag =";
+    static final String STATEMENT16 = useCase1Helper2 + " 'Trump'";
+    static final String STATEMENT17 = useCase1Helper2 + " 'Merkel'";
+    static final String STATEMENT18 = useCase1Helper2 + " 'Putin'";
+    static final String STATEMENT19 = useCase1Helper2 + " 'Macron'";
+    static final String STATEMENT20 = useCase1Helper2 + " 'Trudeau'";
     
     /**
      * Mainactivity
