@@ -10,11 +10,12 @@ public class MainWeather{
     
     //Show current weather updated every 10 minutes due to node configuration
     //Restrictions should be added
-    static final String STATEMENT1 = "SELECT * FROM tblWeather";
+    private static final String STATEMENT1 = "SELECT * FROM tblWeather";
     
     public static void main(String[] args){
         Engine engine = new Engine();
         engine.updateStatement(STATEMENT1);
         new InputListener(engine.getRuntime());
+        System.out.println("Show current weather updated every 10 minutes due to node configuration");
     }
 }
